@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.title img {
+  width: 400px;
+　height: 40px;
+  margin: 20px 30px 20px 30px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+　height: 200px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 30px 10px 30px;
+}
+
+li a {
+  color: #5b5d58;
+}
+
+li a:hover {
+  color: #d27c24;
+  transition: 0.9s;
+}
+
+li:hover {
+  border-bottom: solid 4px #d27c24;
+}
+
+.top {
+  padding: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.bgorange {
+  color: #fff;
+  background-color: #d27c24;
+}
+
+.orange, spam {
+  margin-top: 10px;
+  color: #d27c24;
+}
+
+.howto.orange {
+  font-weight: bold;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: baseline;
+  padding: 0 10px 10px 10px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 16px;
+  color: #5b5d58;
+  font-weight: 500;
+}
+
+.sample table, .link table {
+  width: 100%;
+  border: solid 1px #a4a4a4;
+}
+
+.sample th , .link th{
+  padding: 10px 10px;
+  background-color: #ebebeb;
+}
+
+.line1 {
+  width: 30%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.line2 {
+  width:70%;
+  padding: 15px 10px;
+  vertical-align: middle;
+}
+
+.link a {
+  color: #5b5d58;
+}
+
+.link img {
+  border-radius: 0;
+  margin: 0;
+}
+
+p {
+  color: #5b5d58;
+  margin: 0 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+p a {
+  color: #5b5d58;
+}
+
+.white {
+  color: #5b5d58;
+  border: solid 1px #bfbfbf;
+}
+
+.gray {
+  background-color: #e9e9e2;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 15px;
+  color: #5b5d58;
+  font-weight: 400;
+}
+
+.gallerys img {
+  width: 150px;
+  height: 150px;
+  border-radius: 0;
+  margin: 0;
+}
+
+.gallerys p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+
+.gallerys {
+  border-bottom: solid 1px #bfbfbf;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+}
